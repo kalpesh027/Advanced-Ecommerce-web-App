@@ -248,7 +248,7 @@ npm run eject      # Eject from Create React App
 
 ## 👨‍💻 Developer
 
-**Kalpesh B. Ghodekar**
+**❤️**
 - **Email:** [kalpeshhost@gmail.com](mailto:kalpeshhost@gmail.com)
 
 ## 📄 License
@@ -261,4 +261,4 @@ Website coming soon!
 
 ---
 
-Built with ❤️ by Kalpesh and Team
+Built with ❤️
