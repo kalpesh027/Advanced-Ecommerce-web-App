@@ -1,4 +1,4 @@
-# Apala Bazar - E-commerce Platform
+# Grocery In Hand - E-commerce Platform
 
 A full-stack e-commerce platform built with React.js frontend and Node.js/Express backend, featuring a complete shopping experience with admin panel, customer authentication, product management, and order processing.
 
@@ -98,8 +98,8 @@ apalabazar/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/ArohiSoftware/apalabazar.git
-   cd apalabazar
+   git clone https://github.com/your-username/grocery-in-hand.git
+   cd grocery-in-hand
    ```
 
 2. **Backend Setup**
@@ -140,7 +140,7 @@ Create a `.env` file in the `api` directory with the following variables:
 
 ```env
 # Database
-MONGO=mongodb://localhost:27017/apalabazar
+MONGO=mongodb://localhost:27017/groceryinhand
 # or for cloud MongoDB
 MONGO=mongodb+srv://username:password@cluster.mongodb.net/database
 
@@ -242,15 +242,14 @@ npm run eject      # Eject from Create React App
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature')
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📞 Contact Information
+## 👨‍💻 Developer
 
-- **Email:** [aaplabajar@gmail.com](mailto:aaplabajar@gmail.com)
-- **Phone:** [+91 9423750349](tel:+919423750349)
-- **Address:** Panchayat Samiti Road, Jodhpur Maruti Chowk, Shrigonda, Ahilyanagar 413701
+**Kalpesh B. Ghodekar**
+- **Email:** [kalpeshhost@gmail.com](mailto:kalpeshhost@gmail.com)
 
 ## 📄 License
 
@@ -258,8 +257,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🔗 Website
 
-Visit our live website: [www.apalabajar.com](https://www.apalabajar.com)
+Website coming soon!
 
 ---
 
-Built with ❤️ by the Apala Bazar team
+Built with ❤️ by Kalpesh and Team
