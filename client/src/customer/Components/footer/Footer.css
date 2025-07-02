@@ -1,0 +1,9 @@
+/* styles.css */
+
+.footer-link {
+  color: #000; /* Default link color */
+}
+
+.footer-link:visited {
+  color: #1f4b0e; /* Color for visited links */
+}

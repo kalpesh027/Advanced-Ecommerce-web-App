@@ -1,0 +1,132 @@
+.timelocation {
+   font-weight: 600;
+    display: flex;
+    color: white;
+}
+
+.locationdiv {
+    padding: 5px;
+    display: flex;
+    background-color: rgb(143, 45, 10);
+    border-radius: 10px 0px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.mapicon {
+    height: 25px;
+    width: 30px;
+}
+
+.clockicon {
+    height: 40px;
+    width: 40px;
+}
+
+.greentext {
+    color: green;
+}
+
+.timediv-img {
+    display: flex;
+}
+
+.timediv-img p {
+    padding-left: 5px;
+    padding-top: 9px;
+}
+
+
+
+
+
+
+
+/* popup search */
+/* Button for opening modal */
+.pincode-btn {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pincode-btn span {
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+/* Modal Styles */
+.modal {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* High z-index to bring it to the front */
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    height: 500px;
+    width: 600px;
+    border-radius: 10px;
+    z-index: 10000;
+}
+
+/* Search Bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    flex: 1;
+}
+
+.search-bar .close-btn {
+    cursor: pointer;
+    font-size: 24px;
+    margin-left: 10px;
+    color: #888;
+    font-weight: bold;
+}
+
+/* Search Results */
+.search-results {
+    margin-top: 20px;
+}
+
+.search-result-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.search-result-item:hover {
+    background-color: #f0f0f0;
+}
+
+.search-result-item .icon {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.search-result-item span {
+    font-size: 16px;
+}

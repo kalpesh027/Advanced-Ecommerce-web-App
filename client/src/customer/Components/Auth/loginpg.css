@@ -1,0 +1,203 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes flash {
+  from, 50%, to {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 4ms ease-in-out;
+}
+
+.animate-slideInLeft {
+  animation: slideInLeft 2s ease-in-out;
+}
+
+.animate-slideInRight {
+  animation: slideInRight 1s ease-in-out;
+}
+
+.animate-bounce {
+  animation: bounce 2s infinite;
+}
+
+.active:animate-flash {
+  animation: flash 0.5s ease-in-out;
+}
+
+/* Button styles */
+.button-style {
+  font-size: 1.2rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  display: inline-block;
+  text-align: center;
+}
+
+.button-style:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.button-style:active {
+  transform: scale(1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Link styles */
+.link-style {
+  font-size: 1.1rem;
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.link-style:hover {
+  color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Advanced animation for buttons */
+.button-animation {
+  background: linear-gradient(45deg, #19324d, #103138);
+  color: white;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  transition: background-position 0.5s, color 0.5s, border-color 0.5s;
+  background-size: 200% auto;
+}
+
+.button-animation:hover {
+  background-position: right center;
+  color: #413232;
+  border-color: #111d2a;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .button-style {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+}
+
+.text-blue-500 {
+  color: #007bff;
+}
+
+.text-blue-600 {
+  color: #0056b3;
+}
+
+/* Keyframes for logo animation */
+@keyframes moveLeftToRight {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(400%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveRightToLeft {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.logo-move {
+  animation: moveLeftToRight 10s infinite alternate;
+}
+
+.image-hover:hover {
+  filter: brightness(0.8) sepia(1) hue-rotate(90deg);
+}
+
+.shared-textZinc {
+  color: #5f5f5f;
+}
+
+.shared-hoverTextZinc:hover {
+  color: #2d2d2d;
+}
+
+.shared-darkTextZinc {
+  color: #9e9e9e;
+}
+
+.shared-darkHoverTextZinc:hover {
+  color: #cccccc;
+}
+
+.shared-bgZinc {
+  background-color: #e0e0e0;
+}
+
+.shared-borderZinc {
+  border-color: #e0e0e0;
+}
+
+.shared-darkBgInput {
+  background-color: #2c2c2c;
+}
+
+.shared-darkBorderZinc {
+  border-color: #484848;
+}
+
+.hover-bg-blue:hover {
+  background-color: #9bb3ce; 
+}

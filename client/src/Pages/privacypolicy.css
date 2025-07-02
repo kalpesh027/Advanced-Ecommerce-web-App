@@ -1,0 +1,147 @@
+.Privacy-Policy {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #555;
+    line-height: 1.6;
+
+  }
+  
+  .Privacy-Policy h1 {
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .Privacy-Policy h2, .Privacy-Policy h3, .Privacy-Policy h4 {
+    color: #333;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 20px;
+  
+    margin-bottom: 10px;
+    border-left: 4px solid #0066cc;
+    padding-left: 10px;
+  }
+  
+  .Privacy-Policy p {
+    margin-bottom: 20px;
+  }
+  
+  .Privacy-Policy ul, .Privacy-Policy ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .Privacy-Policy ul li, .Privacy-Policy ol li {
+    margin-bottom: 10px;
+  }
+  
+  .Privacy-Policy table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .Privacy-Policy th, .Privacy-Policy td {
+    border: 1px solid #ddd;
+    padding: 12px;
+  }
+  
+  .Privacy-Policy th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  .Privacy-Policy td {
+    vertical-align: top;
+  }
+  
+  .Privacy-Policy a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .Privacy-Policy a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .Privacy-Policy {
+      margin: 10px;
+    }
+  
+    .Privacy-Policy h1 {
+      font-size: 24px;
+    }
+  
+    .Privacy-Policy h2 {
+      font-size: 20px;
+    }
+  
+    .Privacy-Policy h3 {
+      font-size: 18px;
+    }
+  
+    .Privacy-Policy table, .Privacy-Policy th, .Privacy-Policy td {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Privacy-Policy {
+      margin: 5px;
+    }
+  
+    .Privacy-Policy h1 {
+      font-size: 20px;
+    }
+  
+    .Privacy-Policy h2 {
+      font-size: 18px;
+    }
+  
+    .Privacy-Policy h3 {
+      font-size: 16px;
+    }
+  
+    .Privacy-Policy table, .Privacy-Policy th, .Privacy-Policy td {
+      font-size: 12px;
+      padding: 6px;
+    }
+  }
+  
+  /* Interactive Enhancements */
+  .Privacy-Policy h2::after, .Privacy-Policy h3::after, .Privacy-Policy h4::after {
+    content: "";
+    display: block;
+    width: 50px;
+    border-bottom: 3px solid #0066cc;
+    margin-top: 5px;
+  }
+  
+  .Privacy-Policy th {
+    background-color: #f9f9f9;
+  }
+  
+  .Privacy-Policy tr:hover td {
+    background-color: #f1f1f1;
+  }
+  
+  .Privacy-Policy ul li::marker {
+    color: #0066cc;
+  }
+  
+  .Privacy-Policy ol li {
+    counter-increment: step-counter;
+  }
+  
+  .Privacy-Policy ol li::before {
+    content: counter(step-counter) ". ";
+    color: #0066cc;
+    font-weight: bold;
+  }
+  
