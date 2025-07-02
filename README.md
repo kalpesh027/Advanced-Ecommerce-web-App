@@ -1,4 +1,4 @@
-# Grocery In Hand - E-commerce Platform
+# Grocery In Hand | E-commerce Platform
 
 A full-stack e-commerce platform built with React.js frontend and Node.js/Express backend, featuring a complete shopping experience with admin panel, customer authentication, product management, and order processing.
 
@@ -98,7 +98,7 @@ apalabazar/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/grocery-in-hand.git
+   git clone https://github.com/your-username/Advanced-Ecommerce-web-App
    cd grocery-in-hand
    ```
 
