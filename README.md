@@ -98,7 +98,7 @@ apalabazar/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/Advanced-Ecommerce-web-App
+   git clone https://github.com/kalpesh027/Advanced-Ecommerce-web-App.git
    cd grocery-in-hand
    ```
 
